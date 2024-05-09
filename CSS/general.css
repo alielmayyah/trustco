@@ -72,4 +72,23 @@ background-color:var(--prime) !important;
 #arrow{
 background-color: var(--arrow);
 }
+
+.img-icon {
+    position: absolute;
+    right: 0px;    
+    bottom: 50px;
+    background-color: var(--prime);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: white solid 2px;
+    z-index: 2; 
+}
+
+img.img-fluid {
+
+    z-index: 1; /* Lower than .img-icon */
+}
+
 /* bridges */
+
