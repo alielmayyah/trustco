@@ -7,7 +7,7 @@
 
 /* Navbar Start */
 .signupbutton {
-background-color:var(--prime) !important;
+/* background-color:var(--prime) !important; */
 background-color: red !important;
 
 }
