@@ -2,9 +2,12 @@
   --landing: #F2F5F6;
   --prime:#043A53;
   --yellow:#F0B73F;
-
+    --prime2:#92A7B0;
+    --arrow:#2a586d;
 }
-
+*{
+    text-decoration: none !important;
+}
 /* Navbar Start */
 .signupbutton {
 background-color:var(--prime) !important;
@@ -44,3 +47,29 @@ background-color:var(--prime) !important;
     color: #F0B73F;
 }
 /* Video */
+
+/* Benefits */
+
+.benefits img{
+    width: 40%;
+}
+.custom-card{
+    border-radius: 10px !important;
+    
+ }
+@media (min-width: 992px) {
+     .custom-card{
+        width: 24% !important;
+
+     }
+ }
+/* Benefits */
+
+/* bridges */
+.companies{
+    color: var(--prime2);
+}
+#arrow{
+background-color: var(--arrow);
+}
+/* bridges */
